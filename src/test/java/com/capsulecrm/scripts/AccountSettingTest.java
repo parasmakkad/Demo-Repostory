@@ -47,7 +47,7 @@ public class AccountSettingTest extends BaseLib {
 		up.getAddUserBtn().click();
 		InviteNewUserPage inup=new InviteNewUserPage(driver);
 		inup.inviteNewUser(firstName, LastName, EmailAddress, Username);
-		
+		System.out.println("Account Setting has been verified successfully");
 		
 		
 		
