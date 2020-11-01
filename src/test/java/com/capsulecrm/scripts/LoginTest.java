@@ -55,7 +55,7 @@ public class LoginTest extends BaseLib{
 		ncp.getCaseNameTxtBox().sendKeys(CaseName);
 		ncp.getDescriptionTxtBox().sendKeys(Description);
 		ncp.getSaveBtn().click();
-		
+		System.out.println("Script has been created successfully");
 		
 		
 		
